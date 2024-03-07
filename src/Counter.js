@@ -17,6 +17,7 @@ function Counter() {
     const handleAmountBySubmit = (e) => {
         e.preventDefault()
         dispatch(incrementByAmount(Number(input)))
+        
     }
     return (
         <div>
